@@ -8,6 +8,7 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+~~~
 1. Data Preparation:
     * Read the dataset from a CSV file using pandas.
     * Separate the features (X) and the target variable (y) from the dataset.
@@ -38,6 +39,7 @@ To write a program to predict the profit of a city using the linear regression m
 5. Prediction:
     * To predict the target value for new data, scale the new data using the same scaler.
     * Use the learned weights (theta) to make predictions on the scaled new data.
+~~~
 
 ## Program:
 Program to implement the linear regression using gradient descent.
